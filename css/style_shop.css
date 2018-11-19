@@ -1,0 +1,249 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body, html { font-family: ‘Ubuntu’, Arial, serif; color: #fa8e47; font-weight: 400; }
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/fon.png);
+}
+#navbar li {
+  display: inline;
+}
+#navbar {
+  margin: auto;
+  padding: 0;
+  height: 100px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #fff;
+  line-height: 100px;
+  border: 1px solid #88738C;
+}
+.button_navbar {
+  color: #333;
+  padding: 2px 7px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  line-height: 52px;
+  transition-duration: 0.3s;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  border: 1px solid #88738C;
+}
+.button_navbar:hover {
+  background-color: #88738C;
+  color: #EAEAEA;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.active {
+    background: #88738C;
+  color: #EAEAEA;
+  padding: 2px 7px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  line-height: 52px;
+  transition-duration: 0.5s;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  cursor: context-menu;
+}
+.content {
+  background-color: white;
+  width: 1035px;
+  height: auto;
+  margin: 0 auto;
+  border: 1.5px solid #88738C;
+  border-top: none;
+}
+.logo > img {
+  width: 256px;
+  height: 256px;
+  margin-left: 10px;
+}
+.logo > p {
+  float: right;
+  font-size: 130px;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 256px;
+  color: #88738C;
+  line-height: 256px;
+  margin-right: 10px;
+}
+.button {
+  text-decoration:none; 
+  text-align:center; 
+  padding:15px 30px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px; 
+  border-radius: 30px; 
+  background:#ffffff;
+  color:#000000;
+  transition-duration: 0.2s;
+  font-size: 25px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #88738C;
+  color: #EAEAEA;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#footer {
+  background-color: #88738C;
+  color: #F6F6F6;
+  height: 100px;
+  width: 1035px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 100px;
+  border: 1.5px solid #88738C;
+}
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+body{
+  padding-top: 100px;
+}
+
+.sorbar {
+  width: 1035px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.zagolovok_in_sortirovka {
+  text-align: center;
+  font-size: 21px;
+  color: black;
+  margin-bottom: 30px;
+}
+.sorbar > ul {
+  height: 50px;
+}
+.sorbar > ul > li {
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sorbar > ul > li > a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+.sorbar > ul > li > a:hover {
+  background-color: #88738C;
+  color: #EAEAEA;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+.tovar a {
+  color: #474747;
+}
+.tovar a:hover{
+  text-decoration: none;
+}
+
+
+.tovar {
+  margin-left: 1px;
+  width: 344px;
+  float: left;
+}
+
+.product {
+  border-right: 1px dotted #88738C;
+  padding: 0 15px;
+}
+.product h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.price {
+  margin-left: 5px;
+  color: #d92d1c;
+  font-size: 25px;
+  font-weight: bold;
+  height: 66px;
+}
+.price span{
+  font-size: 18px;
+  color: #575e7c;
+  line-height: 66px;
+}
+.price a {
+  float: right;
+  color: black;
+  margin: 12px 10px 10px 10px;
+  font-size: 21px;
+  font-weight: normal;
+}
+.product_img {
+  text-align: center;
+}
+.katalog {
+  width: 1035px;
+  margin: 30px auto;
+  height: 2700px;
+  border: 0;
+}
+.pr {
+  text-align: center;
+  color: black;
+}
+
+.product_img > a > img {
+  width: 300px;
+  height: 300px;
+}
+.button_tovar {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+.button_tovar:hover {
+  background-color: #88738C;
+  color: #EAEAEA;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.tovar img {
+  border: none;
+}
+.bot_dot {
+  border-bottom: 1px dotted #88738C;
+  margin: 20px;
+}
+.tovar:nth-child(3n) .product {
+  border-right: none;
+}
