@@ -1,0 +1,246 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mono {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.dark-blue-color {
+    color: #035AA5;
+}
+
+.blue-color {
+    color: #03CBE4;
+}
+
+body {
+    background: #F0F0F0;
+}
+
+.sciplex-logo {
+    font-size: 24px;
+}
+
+.header .navbar {
+    min-height: 100px;
+}
+
+a, .navbar .navbar-nav .nav-link {
+    color: #1A161D;
+    font-family: 'UbuntuLight', 'Ubuntu', sans-serif;
+    transition-duration: 0.15s;
+}
+.navbar .navbar-nav .nav-link.active {
+    padding: .2rem .5rem;
+    margin-top: .3rem;
+    border-radius: 100px;
+    background: #03CBE4;
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active:hover {
+    padding: .2rem .5rem;
+    margin-top: .3rem;
+    border-radius: 100px;
+    background: #03CBE4;
+    color: white;
+}
+
+a:hover, .navbar .navbar-nav .nav-link:hover, a.text-white:hover {
+    color: #03CBE4;
+    text-decoration: none;
+    transition-duration: 0.15s;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.sp-card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.14);
+    width: fit-content;
+
+    transition-duration: 0.3s;
+}
+
+
+.sp-card:hover {
+    box-shadow: 1px 2px 10px 2px rgba(0,0,0,0.05);
+    transition-duration: 0.4s;
+    transform: scale(1.02);
+}
+
+
+.sp-card.no-hover:hover {
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.14);
+    transform: scale(1);
+    transition-duration: 0s;
+}
+
+.bg-sp-dark {
+    background: #1A161D;
+}
+
+
+.btn-blue {
+    background: #03CBE4;
+    border-radius: 100px;
+    color: #fff;
+    transition-duration: 0.15s;
+}
+.btn-blue:hover {
+    color: #fff;
+    background: #00e3ff;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.14);
+    transition-duration: 0.15s;
+
+}
+
+.btn-gradient {
+    background: linear-gradient(180deg, #03CBE4 0%, #035AA5 100%);
+    border-radius: 100px;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+.btn-gradient:hover {
+    box-shadow: 0px 4px 15px rgba(3, 150, 200, 0.50);
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+
+
+.dropdown-menu {
+    border-radius: 10px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #000;
+    text-decoration: none;
+    background-color: rgba(234, 234, 234, 1);
+}
+
+.dropdown-item {
+    color: rgba(0,0,0,.5);
+}
+
+.dropdown-item:hover {
+    color: rgba(0,0,0,.7);
+}
+
+.error-hide .errorlist {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+
+/* Dropdown animation */
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.2)!important;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown.show .dropdown-menu {
+    max-height: 300px;
+    opacity: 1;
+}
+
+
+
+.g-recaptcha>div {
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#header #dropdownMenuButton {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#header #dropdownMenuButton svg {
+    margin-right: 10px;
+}
+
+#header #dropdownMenuButton:hover svg path {
+    fill-opacity: 0.5;
+    transition-duration: 0.15s;
+}
+
+#header #dropdownMenuButton svg path {
+    transition-duration: 0.15s;
+}
+
+
+@media (min-width: 992px) {
+    .navbar .navbar-nav .nav-item {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.error-hide {
+    color: red;
+}
+
+.error-hide ~ label {
+    color: red;
+}
+.error-hide ~ input {
+    border-color: red;
+}
+.error-hide ~ input.active, .error-hide ~ input:active, .error-hide ~ input:focus {
+    outline-color: rgba(155,0,0,.25);
+    border-color: rgba(155,0,0,.25);
+    box-shadow: 0 0 0 0.2rem rgba(155,0,0,.25);
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+
+html {
+    font-size: 16px!important;
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 14px!important;
+    }
+}
+@media (max-width: 576px) {
+    html {
+        font-size: 12px!important;
+    }
+}
